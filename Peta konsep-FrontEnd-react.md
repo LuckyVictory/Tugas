@@ -1,3 +1,5 @@
+![Deskripsi Gambar](peta_konsep_react.png)
+
 # 📌 Peta Konsep React  
 
 ## 👥 Nama Kelompok  
