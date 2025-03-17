@@ -1,4 +1,4 @@
-![Deskripsi Gambar](peta_konsep_react.png)
+![Deskripsi Gambar](Peta_konsep_react.png)
 
 # 📌 Peta Konsep React  
 
