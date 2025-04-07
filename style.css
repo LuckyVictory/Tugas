@@ -33,6 +33,10 @@ nav ul li {
     list-style: none;
 }
 
+#About_me ul li {
+    list-style: none;
+}
+
 nav a {
     display: inline-block;
     text-decoration: none;
