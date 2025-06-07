@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>JavaScript Functions</h1>
+
+    <p>Call a function which performs a calculation and returns the result:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction(p1, p2) {
+            return p1 * p2;
+        }
+
+        let result = myFunction(4, 3);
+        document.getElementById("demo").innerHTML = result;
+
+        // Create an Object
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 50,
+            eyeColor: "blue"
+        };
+
+        console.log(person)
+
+        // Create an Object
+        const persons = {};
+
+        // Add Properties
+        persons.firstName = "John";
+        persons.lastName = "Doe";
+        persons.age = 50;
+        persons.eyeColor = "blue";
+        console.log(persons)
+
+        const personss = {
+            firstName: "John",
+            lastName: "Doe",
+            id: 5566,
+        };
+
+        // Add a Method
+        personss.name = function () {
+            return this.firstName + " " + this.lastName;
+        };
+
+        // Display Object Data
+        document.getElementById("demo").innerHTML =
+            "My father is " + personss.name();
+    </script>
+
+</body>
+
+</html>
